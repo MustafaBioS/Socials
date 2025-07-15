@@ -1,0 +1,138 @@
+body, html {
+margin: 0;
+padding: 0;
+height: 100%;
+overflow: hidden;
+}
+
+.video-bg {
+position: fixed;
+top: 0;
+left: 0;
+min-width: 100%;
+min-height: 100%;
+object-fit: cover;
+z-index: -1;
+ }
+
+.content {
+position: relative;
+z-index: 1;
+color: white;
+text-align: center;
+margin-top: 20%;
+font-size: 2rem;
+font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#mainpart {
+    background-color: rgb(0, 0, 0);
+    height: 700px;
+    width: 1000px;
+    opacity: 60%;
+    border-radius: 4%;
+    position: relative;
+}
+
+#discordparent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#discordlogo {
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    margin-right: 1120px;
+    margin-top: 300px;
+    opacity: 70%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+#discordlogo:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#spotifyparent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#spotifylogo {
+    width:29px;
+    position: absolute;
+    margin-right: 1000px;
+    margin-top: 301px;
+    opacity: 70%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#spotifylogo:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#steamparent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#steamlogo {
+    width:29px;
+    position: absolute;
+    margin-right: 880px;
+    margin-top: 301px;
+    opacity: 70%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#steamlogo:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#cas {
+    margin-bottom: 850px;
+    margin-right: 1500px;
+    position:absolute
+}
+
+#pfp {
+    width: 150px;
+    position: absolute;
+    margin-bottom: 350px;
+    border-radius: 60%;
+}
+
+.DS {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 90px;
+  font-style: normal;
+}
+
+#mname {
+  color: white;
+  position: absolute;
+  font-size: 50px;
+  margin-bottom: 140px;
+}
+
+#desc {
+  color: white;
+  position: absolute;
+  font-size: 25px;
+  margin-bottom: -50px;
+}
